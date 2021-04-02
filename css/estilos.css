@@ -3,6 +3,13 @@
 :root {
   --green-color: #7acc2d;
   --white-color: white;
+  --black-color: #313131;
+  /*Tipografía*/
+  --normal: 12px;
+  /*Espaciado*/
+  --space: 10px;
+  /*Box shadow*/
+  --box: 0px 0 2px 1px #e6e5e9;
 }
 
 /* --------------------Variables */
@@ -10,15 +17,15 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-size: 12px;
-  font-family: Helvetica;
+  font-size: var(--normal);
+  font-family: 'Open Sans', sans-serif;
 }
 
 nav {
   display: flex;
   background-color: var(--green-color);
-  padding: 10px;
-  color: white;
+  padding: var(--space);
+  color: var(--white-color);
   justify-content: space-between;
   align-items: center;
 }
@@ -30,11 +37,11 @@ nav li {
   list-style: none;
 }
 nav li a {
-  color: black;
+  color: var(--black-color);
   text-decoration: none;
 }
 nav li a:hover {
-  color: white;
+  color: var(--white-color);
 }
 
 /* Main section */
@@ -51,13 +58,13 @@ nav li a:hover {
   display: flex;
 }
 .product {
-  padding: 10px;
+  padding: var(--space);
   margin-top: -240px;
 }
 .product .content {
-  background-color: white;
+  background-color: var(--white-color);
   padding: 15px;
-  box-shadow: 0 0 1px #c1bcbc;
+  box-shadow: var(--box);
 }
 .img_content {
   text-align: center;
@@ -69,9 +76,9 @@ nav li a:hover {
 .main_button {
   background-color: var(--green-color);
   width: 100%;
-  padding: 10px;
-  font-size: 17px;
-  color: white;
+  padding: var(--space);
+  font-size: var(--normal);
+  color: var(--white-color);
   border: 0;
   cursor: pointer;
   border-radius: 2px;
