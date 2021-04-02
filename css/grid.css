@@ -56,3 +56,38 @@
 .col-12 {
   width: calc(var(--col-width) * 12);
 }
+
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+    padding: 0;
+}
+.col-12, .col-4, .col-8 {
+    margin: 2%;
+    align-self: center;
+  }
+  
+  .col-8 h2{
+    text-align: inherit;
+  }
+  
+  .col-4 img {
+    width: 230px;
+    height: 230px;
+    margin: auto;
+    display: block;
+  }
+@media (max-width: 600px) {
+    .row {
+      display: inherit;
+    }
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9 {
+      width: 100%;
+    }
+  }
