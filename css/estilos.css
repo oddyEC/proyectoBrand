@@ -86,3 +86,41 @@ nav li a:hover {
 .main_button:hover {
   background-color: #5e9e22;
 }
+.cards{
+    display:flex;
+    padding: 5% 10%;
+    justify-content: space-between;
+
+}
+.cards img{
+    display: block;
+    margin: 0% auto;
+    width: 60%;
+}
+.cards .card{
+    padding: 5%;
+}
+.cards .card h3,
+.cards .card p{
+    margin-left:10% ;
+}
+.mentions{
+    padding: 0%,10%,5%;
+}
+.mentions h2{
+    text-align: center;
+}
+.mentions .items{
+    display: flex;
+}
+.mention {
+    box-shadow: var(--box);
+    margin: 5px;
+}
+.mention img {
+    width: 100%;
+}
+.mention h3, .mention p{
+    padding: 5px;
+    margin: 0%;
+}
