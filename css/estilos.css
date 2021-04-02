@@ -124,3 +124,18 @@ nav li a:hover {
     padding: 5px;
     margin: 0%;
 }
+footer{
+    display: flex;
+    background-color: var(--black-color);
+    justify-content: space-between;
+    padding: 2% 1%;
+}
+footer a{
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 12px;
+}
+footer a:hover{
+    text-decoration: none;
+    font-size: 12px;
+}
