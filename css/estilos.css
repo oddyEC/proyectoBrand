@@ -1,0 +1,81 @@
+/* --------------------Variables */
+
+:root {
+  --green-color: #7acc2d;
+  --white-color: white;
+}
+
+/* --------------------Variables */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  font-family: Helvetica;
+}
+
+nav {
+  display: flex;
+  background-color: var(--green-color);
+  padding: 10px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  padding-right: 20px;
+  list-style: none;
+}
+nav li a {
+  color: black;
+  text-decoration: none;
+}
+nav li a:hover {
+  color: white;
+}
+
+/* Main section */
+.main_section {
+  padding: 15%;
+  text-align: center;
+}
+.products {
+  background-image: url("../images/curve.png");
+  max-height: 50px;
+  background-size: cover;
+  background-position: center top;
+  padding: 20%;
+  display: flex;
+}
+.product {
+  padding: 10px;
+  margin-top: -240px;
+}
+.product .content {
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0 0 1px #c1bcbc;
+}
+.img_content {
+  text-align: center;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.main_button {
+  background-color: var(--green-color);
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.main_button:hover {
+  background-color: #5e9e22;
+}
