@@ -124,6 +124,17 @@ nav li a:hover {
     padding: 5px;
     margin: 0%;
 }
+/* ---------Modulo Venta */
+.modulo_pago{
+  background-color: var(--white-color);
+  box-shadow: var(--box);
+  padding: var(--space);
+}
+.modulo_pago_images{
+  max-width: 150px;
+  text-align: center;
+  margin: auto;
+}
 footer{
     display: flex;
     background-color: var(--black-color);
