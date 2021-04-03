@@ -125,7 +125,7 @@ nav li a:hover {
     margin: 0%;
 }
 /* ---------Modulo Venta */
-.modulo_pago{
+/* .modulo_pago{
   background-color: var(--white-color);
   box-shadow: var(--box);
   padding: var(--space);
@@ -134,6 +134,34 @@ nav li a:hover {
   max-width: 150px;
   text-align: center;
   margin: auto;
+} */
+.form-section {
+  margin: 5%;
+  padding: 5%;
+}
+
+.form {
+  padding: 5%;
+  box-shadow: var(--border);
+  display: block;
+}
+
+.form labels
+{
+  padding-top: 3%;
+  height: 35px;
+}
+
+.form input {
+  height: 40px;
+  border-radius: 2px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+input.button {
+  border: none;
+  font-weight: bold;
 }
 footer{
     display: flex;

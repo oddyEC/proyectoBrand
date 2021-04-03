@@ -29,43 +29,41 @@
         </ul>
       </div>
     </nav>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
     <!-- Aqui acaba el navbar -->
-    <div class="container">
-      <div class="row">
-        <div class="col-4">
-          <div class="modulo_pago">
-           <div class="modulo_pago_images">
-             <img src="./images/box2.png" alt="">
-           </div>
-            <h3>Producto1</h3>
+    <section class="container">
+      <div class="row form-section">
+        <div class="col-12 col-md-4">
+          <div class="box">
+            <div class="box_image">
+              <img src="images/box2.png" alt="" />
+            </div>
+            <h2>Producto1</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              facilis at earum? Nemo, consequatur maiores! Aperiam corporis nam
-              suscipit, laudantium tenetur dignissimos adipisci, sint
-              repudiandae, officia est incidunt ducimus ipsam.
+              Miles de productos hay en el mercado, pero nada como una caja con
+              gatitos
             </p>
           </div>
         </div>
-        <div class="col-8">
-          <div class="modulo_pago">asasas</div>
+        <div class="col-12 col-md-8 form">
+          <form
+            action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MZRX2YWBFYXFE"
+            method="POST"
+          >
+            <label for="name">Nombre </label><br />
+            <input type="text" name="name" class="data"/>
+
+            <label for="mail">Mail </label><br />
+            <input type="mail" name="email" class="data"/>
+
+            <label for="phone">Teléfono </label><br />
+            <input type="phone" name="phone" class="data"/>
+
+            <input type="submit" class="button" value="Confirmar pago" />
+          </form>
         </div>
       </div>
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    </section>
     <footer>
       <a href="#">Terminos y condiciones</a>
       <a href="#">contacto@mail.com</a>
